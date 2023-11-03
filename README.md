@@ -1,5 +1,5 @@
 # YL_IND577 git
 # Rice INDE 577 Data Science & Machine learning
 This repository contains algorithms taught in INDE 577 during fall semester of 2023.
-This is a new practice.
+This is a new practice. This is a small change.
 
