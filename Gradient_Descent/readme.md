@@ -11,3 +11,5 @@ The gradient descent process:
 1. By its name, the gradient is a vector of partial derivatives of a function with respect to each of its independent variables. It is actually finding the derivative of a function. (If there is only one independent variable in the function).
 
 2. After that, it is constantly updated for the value of x so that its derivative reaches a value very close to zero.
+
+3. In order to ensure the efficiency of the gradient descent method, we need to determine the step size of each update of x to avoid the need to perform a large number of iterations before converging on the result.
