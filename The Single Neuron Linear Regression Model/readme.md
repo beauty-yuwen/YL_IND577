@@ -8,4 +8,7 @@ Regression analysis is a set of statistical processes used to estimate the relat
 
 The most common form of regression analysis is linear regression, in which the rule between "label" and "feature" is used to find the straight line that best matches the rule.
 ![image](https://github.com/beauty-yuwen/YL_IND577/blob/main/screenshots/Linear_regression.svg)
+
 This plot shows a simple linear regression between response variable y and an independent variable x.
+
+However, linear regression outputs are continuous values and are therefore suitable for regression problems. Unlike regression problems, the final output of the model in classification problems is discrete values.
