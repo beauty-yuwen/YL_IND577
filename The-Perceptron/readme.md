@@ -12,3 +12,6 @@ In this file, I will use 'diabetes' as my dataset to do the Perceptron.
 Data Description
 ---------------
 In this dataset, there are a total of 9 variables of which 'outcome' is a dichotomous variable that will be used as the target variable in this classification algorithm application. In order to apply this algorithm, I used the other 8 variables in this dataset as independent variables to estimate the activation function.
+Then, I will present the first few rows of the dataset utilizing a table.
+
+![image](https://github.com/beauty-yuwen/YL_IND577/assets/143841809/e1ff3036-e87b-4704-9e55-dce59583a0e0)
