@@ -12,3 +12,10 @@ The most common form of regression analysis is linear regression, in which the r
 This plot shows a simple linear regression between response variable y and an independent variable x.
 
 However, linear regression outputs are continuous values and are therefore suitable for regression problems. Unlike regression problems, the final output of the model in classification problems is discrete values.
+### So, how to do linear regression in python?
+To do the analysis, I will use cancer statistics aggregated at the county level.
+There are I will use the data in this dataset to build a linear regression model to predict 'target_deathrate'.
+###### Dataset Description
+There are a total of 33 variables in this dataset, namely 'avganncount'	'avgdeathsperyear'	'target_deathrate'	'incidencerate'	'medincome'	'popest2015'	'povertypercent'	'studypercap'	'binnedinc'	'medianage'	'medianagemale'	'medianagefemale'	'geography'	'percentmarried'	'pctnohs18_24'	'pcths18_24'	'pctsomecol18_24'	'pctbachdeg18_24'	'pcths25_over'	'pctbachdeg25_over'	'pctemployed16_over'	'pctunemployed16_over'	'pctprivatecoverage'	'pctprivatecoveragealone'	'pctempprivcoverage'	'pctpubliccoverage'	'pctpubliccoveragealone'	'pctwhite'	'pctblack'	'pctasian'	'pctotherrace'	'pctmarriedhouseholds'	'birthrate'. Besides, there are total 3,047 rows in this dataset.
+
+Just because there are so many variables in this dataset, I will not show the data here, but I will give a data description in my python file.
