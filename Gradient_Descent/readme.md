@@ -13,3 +13,7 @@ The gradient descent process:
 2. After that, it is constantly updated for the value of x so that its derivative reaches a value very close to zero.
 
 3. In order to ensure the efficiency of the gradient descent method, we need to determine the step size of each update of x to avoid the need to perform a large number of iterations before converging on the result.
+
+Data Description
+----------------
+In this file, I did not use the real dataset. I defined functions by myself to achieve the Gradient-Descent algorithm.
