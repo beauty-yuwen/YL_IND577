@@ -29,4 +29,6 @@ After knowing the steps to do the Single Neuron Logistic Regression, I choose a 
 The name of the dataset is "nba_logreg". In this dataset, it displays 21 columns, 1,340 rows in table, which means it has 21 varibales and 1340 data points. It is a dataset for practicing classification. My goal is to predict if player will last 5 years in league.
 
 Here is a description for the dataset:
-!image[]
+![image](https://github.com/beauty-yuwen/YL_IND577/blob/main/screenshots/Screen%20Shot%202017-01-25%20at%2010.20.38%20AM.png)
+
+The "TARGET_5Yrs" is the label in my logistic model. Other variables are features to help predict the label.
