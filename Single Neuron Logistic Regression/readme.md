@@ -26,3 +26,7 @@ By the 5th step, we will get the model with the least cost.
 ## Data Description
 After knowing the steps to do the Single Neuron Logistic Regression, I choose a real dataset to repeate the procedure.
 
+The name of the dataset is "nba_logreg". In this dataset, it displays 21 columns, 1,340 rows in table, which means it has 21 varibales and 1340 data points. It is a dataset for practicing classification. My goal is to predict if player will last 5 years in league.
+
+Here is a description for the dataset:
+!image[]
