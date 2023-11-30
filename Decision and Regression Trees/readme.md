@@ -1,4 +1,4 @@
-Decision and Regression Trees
+Decision Trees
 =============================
 In this file, I am going to explain and build decision and regression trees.
 Regression trees are included in decision trees.
