@@ -21,3 +21,14 @@ Sequentially trains a series of weak learners, giving more emphasis to misclassi
 
 Builds a series of decision trees sequentially, with each tree trying to correct the errors of the combined ensemble so far. Common implementations include XGBoost, LightGBM, and CatBoost.
 ### I try to do these ensemble methods with a dataset
+The dataset I will be using in this file is the 'titanic' dataset. This dataset describes information about the passengers on the Titanic, including age, gender, etc. I will use this information to build a model to predict whether or not the passengers were spared.
+* survival	Survival	0 = No, 1 = Yes
+* pclass	Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd
+* sex	Sex	
+* Age	Age in years	
+* sibsp	# of siblings / spouses aboard the Titanic	
+* parch	# of parents / children aboard the Titanic	
+* ticket	Ticket number	
+* fare	Passenger fare	
+* cabin	Cabin number	
+* embarked	Port of Embarkation	C = Cherbourg, Q = Queenstown, S = Southampton
