@@ -24,6 +24,20 @@ K-means clustering is a popular unsupervised machine learning algorithm used for
 4. Update the centroids using the average of distance between every groups;
 5. Repeat 3 and 4 until the centroids do not change.
 
+### PCA
+#### What is PCA?
+Principal Component Analysis (PCA) is a dimensionality reduction technique used in machine learning and statistics. The main goal of PCA is to transform high-dimensional data into a new coordinate system (principal components) while retaining as much variance in the data as possible. This allows for a reduction in the number of features (dimensions) while preserving the essential information in the dataset.
+#### How to do PCA?
+1. Standardization:
+Before applying PCA, it's common to standardize the features (subtract the mean and divide by the standard deviation). Standardization ensures that all features have a similar scale, preventing features with larger magnitudes from dominating the variance.
+2. Covariance Matrix Calculation:
+PCA calculates the covariance matrix of the standardized features. The covariance matrix represents the relationships between different features in the dataset.
+3. Eigenvalue and Eigenvector Computation:
+The eigenvectors and eigenvalues of the covariance matrix are computed. Eigenvectors represent the directions of maximum variance, and eigenvalues indicate the magnitude of the variance in those directions.
+4. Selection of Principal Components:
+Principal components are chosen based on the eigenvectors with the highest eigenvalues. These components capture the most significant variance in the data.
+5. Projection:
+The data is projected onto the selected principal components to obtain a reduced-dimensional representation of the original data.
 ## The Data
 
 We will use a data frame with 777 observations on the following 18 variables.
@@ -46,4 +60,4 @@ We will use a data frame with 777 observations on the following 18 variables.
 * Expend Instructional expenditure per student
 * Grad.Rate Graduation rate
 
-In this exercise, we will attempt to use KMeans Clustering to cluster Universities into to two groups, Private and Public.
+In this exercise, we will attempt to use KMeans Clustering and PCA to cluster Universities into to two groups, Private and Public.
