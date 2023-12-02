@@ -16,3 +16,12 @@ Neurons in hidden layers apply weighted transformations to the inputs and pass t
 ### Output Layer:
 This layer produces the final output of the neural network.
 The number of neurons in the output layer depends on the nature of the task (e.g., binary classification, multiclass classification, regression).
+
+![image](https://github.com/beauty-yuwen/YL_IND577/blob/main/screenshots/Neural_network_example.svg)
+
+How to implement Neural Nets?
+------------------
+Neural networks use a process called training or learning to adjust the weights associated with each connection between neurons. During training, the network learns to map input data to the correct output by iteratively adjusting these weights based on the error or difference between predicted and actual outputs.
+
+Data used to implement Neural Nets
+---------------------------------
